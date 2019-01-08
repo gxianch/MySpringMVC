@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zfz</groupId>
+  <artifactId>MySpringMVC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  
+     <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.0.RELEASE</version>
+    </parent>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.1.0</version>
+  	</dependency>
+  	<!-- https://mvnrepository.com/artifact/io.netty/netty -->
+<!-- <dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty</artifactId>
+    <version>3.10.5.Final</version>
+</dependency> -->
+  	<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+<dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-all</artifactId>
+    <version>4.1.5.Final</version>
+</dependency>
+  	<!-- https://mvnrepository.com/artifact/io.netty/netty-common -->
+<!-- <dependency>
+    <groupId>io.netty</groupId>
+    <artifactId>netty-common</artifactId>
+    <version>4.1.5.Final</version>
+</dependency> -->
+  	  <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/net.sf.ehcache/ehcache -->
+<dependency>
+    <groupId>net.sf.ehcache</groupId>
+    <artifactId>ehcache</artifactId>
+    <version>2.9.0</version>
+</dependency>
+        
+  </dependencies>
+</project>

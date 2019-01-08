@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+    updateCheck="false">
+
+    <!-- 默认缓存配置 ，缓存名称为 default -->
+    <defaultCache maxElementsInMemory="50" eternal="false"
+        overflowToDisk="false" memoryStoreEvictionPolicy="LFU" />
+    <!-- 自定义缓存，名称为lt.ehcache -->
+    <cache name="lt.ecache" maxElementsInMemory="50" eternal="false"
+        overflowToDisk="false" memoryStoreEvictionPolicy="LFU" />
+</ehcache>  
